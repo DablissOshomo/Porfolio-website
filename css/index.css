@@ -329,14 +329,13 @@ button a {
 .item-name h2 {
     text-align: left;
     color: black;
-    padding: 10px 20%;
+    padding: 10px 0px;
     font-size: 25px;
 }
 .item-name p {
     text-align: left;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 0px 20%
    
 }
 .line {
@@ -346,7 +345,7 @@ button a {
     background-color: transparent;
     border: 1px solid #00abf0;
     position: absolute;
-    left: 150px;
+    left: 60px;
 }
 .line-2 {
     width: 10px;
@@ -355,7 +354,7 @@ button a {
     background-color: transparent;
     border: 1px solid #00abf0;
     position: relative;
-    left: -180px;
+    left: -75px;
     top: 60px;
 }
 .line-1 {
@@ -363,7 +362,7 @@ button a {
     height: 145px;
     background-color: #00abf0;
     position: absolute;
-    left: 154px;
+    left: 64px;
     margin-top: 15px;
 }
 #about {
