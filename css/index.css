@@ -440,7 +440,8 @@ button a {
     padding: 10px;
     text-decoration: none;
     background-color: white;
-    
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     font-size: 30px;
     display: flex;
@@ -727,6 +728,7 @@ px;
    
     position: absolute;
     left: 22px;
+    hei
     margin-top: 15px;
 }
 
