@@ -13,7 +13,7 @@ background-color: white;
 }
 .dot {
     font-size: 30px;
-    color: black;
+    color: #ffcb74;
     font-weight: bolder;
 }
 nav {
@@ -30,7 +30,7 @@ nav {
 }
 nav h1 {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 600;
     line-height: 30px;
     color: black;
     letter-spacing: 1px;
@@ -55,8 +55,8 @@ nav h1::before {
     }
 ul a {
     margin-right: 30px;
-    font-size: 18px;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: none;
     line-height: 20px;
     color: black;
