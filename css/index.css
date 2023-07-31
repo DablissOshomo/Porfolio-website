@@ -323,18 +323,19 @@ button a {
 
 .item-name {
     display: block;
-    padding: 40px 30%;
+    padding: 40px 10%;
     
 }
 .item-name h2 {
     text-align: left;
     color: black;
-    padding: 10px 0px;
-    font-size: 20px;
+    padding: 10px 10%;
+    font-size: 25px;
 }
 .item-name p {
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
+    padding: 0 10%;
 }
 .line {
     width: 10px;
