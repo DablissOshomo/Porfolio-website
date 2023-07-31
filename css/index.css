@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
     html {
         scroll-behavior: smooth;
@@ -13,7 +13,7 @@ background-color: white;
 }
 .dot {
     font-size: 30px;
-    color: #ffcb74;
+    color: #00abf0;
     font-weight: bolder;
 }
 nav {
@@ -129,7 +129,7 @@ ul a::before {
 ul a:hover {
 cursor: pointer;
  transition: 0.3s ease-in;
- color: #ffcb74;
+ color: #00abf0;
 }
 
 .wrap {
@@ -147,7 +147,7 @@ cursor: pointer;
     width: 200px;
     border-radius: 50%;
     height: 200px;
-    background: linear-gradient(45deg,#ffcb74,white);
+    background: linear-gradient(45deg,#00abf0,white);
     backdrop-filter: blur(100px);
     
     animation: object1 6s linear infinite;
@@ -161,7 +161,7 @@ cursor: pointer;
     width: 200px;
     border-radius: 50%;
     height: 200px;
-    background: linear-gradient(45deg,#ffcb74,white);
+    background: linear-gradient(45deg,#00abf0,white);
     backdrop-filter: blur(100px);
     animation: object2 6s linear infinite;
     animation-delay: 0.7s;
@@ -199,12 +199,12 @@ cursor: pointer;
 h1 {
     display: block;
     font-size: 5.7em;
-    font-weight: bolder;
+    font-weight: 500;
     font-weight: 900;
     color: black;
 }
 .multitext {
-    color: #ffcb74;
+    color: #00abf0;
     text-transform: capitalize;
     font-weight: bolder;
 }
@@ -241,12 +241,12 @@ button {
      align-items: center;
      justify-content: center;
      height: 43px;
-     background: transparent;
+     background: #00abf0;
      border: 1px solid;
      border-radius: 50px;
      display: inline-flex;
      font-size: 15px;
-     color: white;
+     color: #00abf0;
      text-decoration: none;
      font-weight: 600;
      letter-spacing: 1px;
@@ -256,7 +256,7 @@ button {
      transition: .5s;
 }
 button:hover {
-    color: #7f00ff;
+    color: transparent;
 }
 
  button:nth-child(2) {
@@ -278,7 +278,7 @@ button:hover::before {
     width: 100%;
 }
 button:nth-child(2)::before {
-    background: black;
+    background: #00abf0;
 } 
 button:nth-child(2):hover {
     color: white;
