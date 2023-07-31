@@ -211,8 +211,8 @@ h1 {
 p {
     display: block;
     width: 90%;
-    font-size: 1em;
-    font-weight: bolder;
+    font-size: 1.1em;
+    font-weight: 500;
     color: black;
 }
 .btns {
@@ -242,7 +242,7 @@ button {
      justify-content: center;
      height: 43px;
      background: #00abf0;
-     border: 1px solid;
+  
      border-radius: 50px;
      display: inline-flex;
      font-size: 15px;
@@ -306,15 +306,16 @@ button a {
     background-color: white;
     text-align: center;
     height: 100%;
+    width: auto
 }
 #Services h1 {
     font-size: 2.5em;
     font-weight: 900;
-    color: #ffcb734;
+    color: #00abf0;
    padding-bottom: 50px;
 }
 .container {
-    width: 100%;
+    width: 80%;
     height: 100vh;
     overflow: hidden;
 }
@@ -338,7 +339,7 @@ button a {
     height: 10px;
     border-radius: 50%;
     background-color: transparent;
-    border: 1px solid #7f00ff;
+    border: 1px solid #00abf0;
     position: absolute;
     left: 60px;
 }
@@ -347,7 +348,7 @@ button a {
     height: 10px;
     border-radius: 50%;
     background-color: transparent;
-    border: 1px solid #7f00ff;
+    border: 1px solid #00abf0;
     position: relative;
     left: -75px;
     top: 60px;
@@ -355,18 +356,18 @@ button a {
 .line-1 {
     width: 2px;
     height: 145px;
-    background-color: #7f00ff;
+    background-color: #00abf0;
     position: absolute;
     left: 64px;
     margin-top: 15px;
 }
 #about {
     height: 100vh;
-    padding: 0 10%;
+    padding: 0 -108px;
     display: flex;
 }
 #about h1 {
-    color: #7f00ff;
+    color: #00abf0;
     padding-bottom: 50px;
     padding-top: 120px;
     font-weight: 900;
