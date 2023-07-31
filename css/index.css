@@ -278,7 +278,7 @@ button:hover::before {
     width: 100%;
 }
 button:nth-child(2)::before {
-    background: #00abf0;
+    background: white;
 } 
 button:nth-child(2):hover {
     color: white;
@@ -334,7 +334,8 @@ button a {
 }
 .item-name p {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
    
 }
 .line {
@@ -384,7 +385,8 @@ button a {
     text-align: center;
     color: black;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .about-content {
     width: 100%;
@@ -420,7 +422,8 @@ button a {
 }
 .contact-1 p {
    padding: 15px 0;
-   font-size: 16px;
+    font-weight: 500;
+   font-size: 1.1em;
     color: white;
 }
 .contact-1 h2 {
@@ -517,7 +520,7 @@ button a {
 
 @media only screen  and (max-width: 380px){
     nav {
-        padding: 10px 10%;
+        padding: 15px 10%;
         height: 10vh;
         max-height: 40vh;
         z-index: 10;
@@ -530,26 +533,27 @@ button a {
         height: 50vh;
         z-index: 10;
        background-color: white;
+        color: #00abf0;
         flex-direction: column;
         transition: 0.5s ease-in;
         justify-content: center;
         align-items: center;
-        gap: 2.5rem;
+        gap: 2.3rem;
     }
     ul.active {
         left: 0;
         transition: 0.5s ease-in;
     }
     nav ul li a {
-        font-size: 23px;
+        font-size: 16px;
 
     }
     .menu-icon {
         display: block;
     }
     nav h1 {
-        font-size: 20px;
-        font-weight: 700;
+        font-size: 18px;
+        font-weight: 500;
         line-height: 20px;
     }
    
@@ -559,13 +563,14 @@ button a {
     }
     
     h1 {
-        font-size: 1.4em;
+        font-size: 1.1em;
         padding-bottom: 30px; 
     }
     
     p {
         width: 100%;
-        font-size: 0.6em;
+        font-size: 0.5em;
+        font-weight: 500;
     }
     .wrap::before {
       
@@ -582,11 +587,11 @@ button a {
         margin-right: 30px;
     }
     button a{
-        font-size: 14px;
+        font-size: 8px;
     }
     button {
   
-     font-size: 10px;
+     font-size: 8px;
      color: #00abf0;
      text-decoration: none;
      font-weight: 600;
@@ -626,7 +631,7 @@ button a {
     text-align: center;
     
     
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 .about-img {
     margin: 0 20px;
@@ -644,7 +649,7 @@ button a {
 #contact h1 {
     padding-top: 100px;
     text-align: center;
-    font-size: 28
+    font-size: 20
 px;
 }
 .contact-me {
@@ -666,7 +671,7 @@ px;
    text-align: center;
 }
 .contact-1 h2 {
-    font-size: 23px;
+    font-size: 18px;
     text-align: center;
     color: black;
     padding: 15px 0;
@@ -708,8 +713,8 @@ px;
     background-color: white;
     text-align: center;
     border-radius: 50%;
-    font-size: 30px;
-    
+    font-size: 20px;
+    display: flex
     padding: 20px 10%;
 }
 ::placeholder {
@@ -737,7 +742,6 @@ px;
    
     position: absolute;
     left: 22px;
-    hei
     margin-top: 15px;
 }
 
