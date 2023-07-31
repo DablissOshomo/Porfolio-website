@@ -334,8 +334,7 @@ button a {
 }
 .item-name p {
     text-align: left;
-    font-size: 1.1em;
-    font-weight: 500;
+   
    
 }
 .line {
@@ -422,8 +421,7 @@ button a {
 }
 .contact-1 p {
    padding: 15px 0;
-    font-weight: 500;
-   font-size: 1.1em;
+  
     color: white;
 }
 .contact-1 h2 {
@@ -442,10 +440,8 @@ button a {
     margin: 0 40px
     padding: 10px;
     text-decoration: none;
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+   
+   
     font-size: 15px;
     display: flex;
     padding: 20px 10%;
@@ -473,7 +469,7 @@ button a {
     
    }
    .row h2 {
-       color: #ffcb74;
+       color: #00abf0;
    }
    .contact-heading {
     color: white;
