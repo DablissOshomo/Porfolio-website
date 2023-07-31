@@ -306,7 +306,7 @@ button a {
     background-color: white;
     text-align: center;
     height: 100%;
-    width: auto
+    width: auto;
 }
 #Services h1 {
     font-size: 2.5em;
@@ -315,7 +315,7 @@ button a {
    padding-bottom: 50px;
 }
 .container {
-    width: 80%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     
@@ -329,14 +329,14 @@ button a {
 .item-name h2 {
     text-align: left;
     color: black;
-    padding: 10px 30%;
+    padding: 10px 20%;
     font-size: 25px;
 }
 .item-name p {
     text-align: left;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 0px 30%
+    padding: 0px 20%
    
 }
 .line {
