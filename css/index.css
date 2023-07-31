@@ -329,13 +329,14 @@ button a {
 .item-name h2 {
     text-align: left;
     color: black;
-    padding: 10px 0px;
+    padding: 10px 30%;
     font-size: 25px;
 }
 .item-name p {
     text-align: left;
     font-size: 0.6em;
     font-weight: 500;
+    padding: 0px 30%
    
 }
 .line {
