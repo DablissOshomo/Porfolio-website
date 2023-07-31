@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Merriweather', serif;
 }
     html {
         scroll-behavior: smooth;
@@ -32,7 +32,7 @@ nav h1 {
     font-size: 24px;
     font-weight: bolder;
     line-height: 30px;
-    color: #7f00ff;
+    color: black;
     letter-spacing: 1px;
     position: relative;
   
@@ -59,7 +59,7 @@ ul a {
     font-weight: bolder;
     text-decoration: none;
     line-height: 20px;
-    color: #7f00ff;
+    color: black;
     letter-spacing: 1px;
     text-transform: uppercase;
     position: relative;
@@ -129,7 +129,7 @@ ul a::before {
 ul a:hover {
 cursor: pointer;
  transition: 0.3s ease-in;
- color: #7f00ff;
+ color: #ffcb74;
 }
 
 .wrap {
@@ -147,7 +147,7 @@ cursor: pointer;
     width: 200px;
     border-radius: 50%;
     height: 200px;
-    background: linear-gradient(45deg,#7f00ff,white);
+    background: linear-gradient(45deg,#ffcb74,white);
     backdrop-filter: blur(100px);
     
     animation: object1 6s linear infinite;
@@ -161,7 +161,7 @@ cursor: pointer;
     width: 200px;
     border-radius: 50%;
     height: 200px;
-    background: linear-gradient(45deg,#7f00ff,white);
+    background: linear-gradient(45deg,#ffcb74,white);
     backdrop-filter: blur(100px);
     animation: object2 6s linear infinite;
     animation-delay: 0.7s;
@@ -192,7 +192,7 @@ cursor: pointer;
     font-size: 35px;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: #7f00ff;
+    color: black;
     overflow: hidden;
 }
 
@@ -201,10 +201,10 @@ h1 {
     font-size: 5.7em;
     font-weight: bolder;
     font-weight: 900;
-    color: #7f00ff;
+    color: black;
 }
 .multitext {
-    color: #050801;
+    color: #ffcb74;
     text-transform: capitalize;
     font-weight: bolder;
 }
@@ -213,7 +213,7 @@ p {
     width: 90%;
     font-size: 1em;
     font-weight: bolder;
-    color: #050801;
+    color: black;
 }
 .btns {
     width: 100%;
@@ -242,10 +242,10 @@ button {
      justify-content: center;
      height: 43px;
      background: transparent;
-     border: 1px solid #7f00ff;
+     border: 1px solid;
      border-radius: 50px;
      display: inline-flex;
-     font-size: 16px;
+     font-size: 15px;
      color: white;
      text-decoration: none;
      font-weight: 600;
@@ -261,7 +261,7 @@ button:hover {
 
  button:nth-child(2) {
     background: transparent;
-    color: #7f00ff;
+    color: black;
 }
 button::before {
     content: '';
@@ -278,7 +278,7 @@ button:hover::before {
     width: 100%;
 }
 button:nth-child(2)::before {
-    background: #7f00ff;
+    background: black;
 } 
 button:nth-child(2):hover {
     color: white;
@@ -287,7 +287,7 @@ button:nth-child(2):hover {
 button a {
     text-decoration: none;
     filter: hue-rotate(270deg);
-    color: #050801;
+    color: black;
 }
 
 
@@ -310,7 +310,7 @@ button a {
 #Services h1 {
     font-size: 2.5em;
     font-weight: 900;
-    color: #7f00ff;
+    color: #ffcb734;
    padding-bottom: 50px;
 }
 .container {
@@ -326,7 +326,7 @@ button a {
 }
 .item-name h2 {
     text-align: left;
-    color: #7f00ff;
+    color: black;
     padding: 10px 0px;
 }
 .item-name p {
@@ -400,9 +400,10 @@ button a {
 }
 #contact  {
     width: auto;
+    background-color: black
 }
 #contact h1 {
-    color: #7f00ff;
+    color: #ffcb74;
     padding-top: 100px;
     text-align: center;
     font-size: 40px;
@@ -416,15 +417,16 @@ button a {
 .contact-1 p {
    padding: 15px 0;
    font-size: 16px;
+    color: white
 }
 .contact-1 h2 {
     font-size: 25px;
-    color: black;
+    color: white;
     padding: 15px 0;
 }
 .media h2{
     padding: 10px 10%;
-    color: black;
+    color: white;
     padding-bottom: 20px;
 }
 
@@ -437,7 +439,7 @@ button a {
     
     border-radius: 50%;
     font-size: 30px;
-    display: block;
+    display: flex;
     padding: 20px 10%;
 }
 .icos-1 a {
@@ -466,10 +468,10 @@ button a {
     
    }
    .row h2 {
-       color: #7f00ff;
+       color: #ffcb74;
    }
    .contact-heading {
-    color: black;
+    color: white;
     font-size: 250%;
     margin-bottom: 50px;
     margin-top: 150px;
@@ -479,11 +481,11 @@ button a {
     text-align: left;
     width: 40%;
     margin: 0 auto;
-    color: black;
+    color: white;
     font-weight: 1000;
    }
    ::placeholder {
-       color: black;
+       color: white;
        font-weight: 700;
    }
    
@@ -577,7 +579,7 @@ button a {
     .menu-icon {
         margin-right: 30px;
     }
-    button {
+    button a{
         font-size: 14px;
     }
     .btns {
@@ -587,22 +589,6 @@ button a {
         position: relative;
     }
     
-    .first {
-        width: 100%;
-        height: 500px;
-        margin: 50px auto;
-        }
-
-    .first p {
-            font-size: 14px;
-            font-weight: 700;
-            color: white;
-            text-align: center;
-            padding: 0 10px;
-        }
-  .hidden {
-      display: block;
-        }
     #about {
     height: 100%;
     padding: 0 10%;
@@ -627,7 +613,7 @@ button a {
 
 #about p {
     text-align: center;
-    color: black;
+    
     
     font-size: 0.8em;
 }
@@ -645,7 +631,6 @@ button a {
     width: auto;
 }
 #contact h1 {
-    color: #7f00ff;
     padding-top: 100px;
     text-align: center;
     font-size: 28
@@ -677,7 +662,7 @@ px;
 }
 .media h2{
     padding: 10px 10%;
-    color: black;
+   
     padding-bottom: 20px;
     text-align: center;
 }
@@ -688,10 +673,10 @@ px;
     left: 0px;
    }
    .row h2 {
-       color: #7f00ff;
+      
    }
    .contact-heading {
-    color: black;
+    
     font-size: 250%;
     margin-bottom: 50px;
     margin-top: 150px;
@@ -717,7 +702,7 @@ px;
     padding: 20px 10%;
 }
 ::placeholder {
-    color: black;
+    
     font-weight: 700;
 }
 .item-name {
