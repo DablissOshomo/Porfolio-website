@@ -407,7 +407,7 @@ button a {
     background-color: black
 }
 #contact h1 {
-    color: #ffcb74;
+    color:  #00abf0;
     padding-top: 100px;
     text-align: center;
     font-size: 40px;
@@ -421,7 +421,7 @@ button a {
 .contact-1 p {
    padding: 15px 0;
    font-size: 16px;
-    color: white
+    color: white;
 }
 .contact-1 h2 {
     font-size: 25px;
@@ -436,14 +436,14 @@ button a {
 
 
 .icons a{
-    margin: 0 40px;
+    margin: 0 40px
     padding: 10px;
     text-decoration: none;
     background-color: white;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
     padding: 20px 10%;
 }
@@ -584,6 +584,15 @@ button a {
     button a{
         font-size: 14px;
     }
+    button {
+  
+     font-size: 10px;
+     color: #00abf0;
+     text-decoration: none;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+    
+}
     .btns {
         width: 100%;
         display: flex;
