@@ -260,7 +260,7 @@ button:hover {
 }
 
  button:nth-child(2) {
-    background: transparent;
+    background:  #00abf0;
     color: black;
 }
 button::before {
@@ -329,13 +329,13 @@ button a {
 .item-name h2 {
     text-align: left;
     color: black;
-    padding: 10px 10%;
+    padding: 10px 0px;
     font-size: 25px;
 }
 .item-name p {
     text-align: left;
     font-size: 20px;
-    padding: 0 10%;
+   
 }
 .line {
     width: 10px;
@@ -366,7 +366,7 @@ button a {
 }
 #about {
     height: 100vh;
-    padding: 0 108px;
+    padding: 0 10%;
     display: flex;
 }
 #about h1 {
@@ -465,10 +465,7 @@ button a {
 
 .contact-section {
     text-align: center;
-    position: relative;
-    top: -590px;
-    width: 100%;
-    left: 100px;
+    
     
    }
    .row h2 {
