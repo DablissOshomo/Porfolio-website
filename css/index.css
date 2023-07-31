@@ -334,7 +334,7 @@ button a {
 }
 .item-name p {
     text-align: left;
-    font-size: 0.6em;
+    font-size: 1.1em;
     font-weight: 500;
     padding: 0px 30%
    
@@ -346,7 +346,7 @@ button a {
     background-color: transparent;
     border: 1px solid #00abf0;
     position: absolute;
-    left: 60px;
+    left: 150px;
 }
 .line-2 {
     width: 10px;
@@ -355,7 +355,7 @@ button a {
     background-color: transparent;
     border: 1px solid #00abf0;
     position: relative;
-    left: -75px;
+    left: -180px;
     top: 60px;
 }
 .line-1 {
@@ -363,7 +363,7 @@ button a {
     height: 145px;
     background-color: #00abf0;
     position: absolute;
-    left: 64px;
+    left: 154px;
     margin-top: 15px;
 }
 #about {
