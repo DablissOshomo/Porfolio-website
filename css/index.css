@@ -404,7 +404,7 @@ button a {
 }
 #contact  {
     width: auto;
-    background-color: black
+    background-color: white;
 }
 #contact h1 {
     color:  #00abf0;
@@ -577,6 +577,19 @@ button a {
         width: 125px;
         border-radius: 50%;
         height: 125px;
+    }
+     @keyframes object1 {
+        50%{
+            left: -13%;
+            top: 41%;
+        }
+    }
+
+    @keyframes object2 {
+        50%{
+            left: 40%;
+            top: 10%;
+        }
     }
     .menu-icon {
         margin-right: 20px;
