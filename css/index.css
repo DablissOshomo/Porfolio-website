@@ -179,11 +179,10 @@ cursor: pointer;
             top: 10%;
         }
     }
-.cols {
-    width: 100%;
-}
+
 .colos {
-    z-index: 4;
+
+     margin-top: 150px;
    
     
 }
