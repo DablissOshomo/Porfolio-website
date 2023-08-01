@@ -557,13 +557,13 @@ button a {
         font-size: 22px;
     }
     
-    h1 {
+   .wrap h1 {
         font-size: 1.1em;
         padding-bottom: 30px; 
     }
     
-    p {
-        width: 100%;
+   .wrap  p {
+        width: 80%;
         font-size: 0.4em;
         font-weight: 500;
     }
