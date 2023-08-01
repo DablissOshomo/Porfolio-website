@@ -741,8 +741,12 @@ px;
     left: 22px;
     margin-top: 15px;
 }
-
-
+.item-name p{ 
+    font-size: 18px;
+}
+.item-name h2 {
+    color: black;
+    
 }
 
 
