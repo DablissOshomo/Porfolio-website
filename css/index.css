@@ -587,7 +587,7 @@ button a {
 
     @keyframes object2 {
         50%{
-            left: 40%;
+            left: 30%;
             top: 10%;
         }
     }
