@@ -550,7 +550,7 @@ button a {
     nav h1 {
         font-size: 18px;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 18px;
     }
    
     
@@ -565,7 +565,7 @@ button a {
     
     p {
         width: 100%;
-        font-size: 0.5em;
+        font-size: 0.4em;
         font-weight: 500;
     }
     .wrap::before {
@@ -580,14 +580,16 @@ button a {
         height: 125px;
     }
     .menu-icon {
-        margin-right: 30px;
+        margin-right: 20px;
     }
     button a{
-        font-size: 8px;
+        font-size: 6px;
+        color: white;
+
     }
     button {
   
-     font-size: 8px;
+     font-size: 6px;
      color: #00abf0;
      text-decoration: none;
      font-weight: 600;
@@ -600,7 +602,9 @@ button a {
         left: 0px;
         position: relative;
     }
-    
+    .btn a {
+        font-size: 12px;
+    }
     #about {
     height: 100%;
     padding: 0 10%;
@@ -637,9 +641,8 @@ button a {
   .navbar i {
       display: inline-block;
   }
-  #contact  {
-    width: auto;
-}
+  
+
 #contact h1 {
     padding-top: 100px;
     text-align: center;
@@ -701,7 +704,6 @@ px;
    }
 
 .icons a {
-    margin: 0 20px;
 
     text-decoration: none;
     background-color: white;
@@ -709,8 +711,9 @@ px;
     border-radius: 50%;
     font-size: 20px;
     display: flex
-    padding: 20px 10%;
 }
+    .icon {
+        display: flex;}
 ::placeholder {
     
     font-weight: 700;
