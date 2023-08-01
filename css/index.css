@@ -404,17 +404,17 @@ button a {
 }
 #contact  {
     width: auto;
-    background-color: white;
+    background-color: black;
 }
 #contact h1 {
     color:  #00abf0;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     font-size: 40px;
 }
 .contact-me {
     display: flex;
-    gap: 100px;
+    gap: 60px;
     padding: 80px 10%;
     width: auto;
 }
@@ -435,15 +435,15 @@ button a {
 }
 
 
-.icons a{
+.media .icons {
     margin: 0 40px
     padding: 10px;
     text-decoration: none;
    
-   
-    font-size: 15px;
+       
+    font-size: 30px;
     display: flex;
-    padding: 20px 10%;
+
 }
 .icos-1 a {
     color: blue;
