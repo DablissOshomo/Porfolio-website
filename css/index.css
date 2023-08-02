@@ -134,7 +134,7 @@ cursor: pointer;
 }
 
 .wrap {
-    width: 100%;
+    width: auto;
     height: 100vh;
     padding: 0 10%;
    
@@ -404,7 +404,7 @@ button a {
 }
 #contact  {
     width: auto;
-    background-color: black;
+    background-color: white;
 }
 #contact h1 {
     color:  #00abf0;
@@ -421,16 +421,16 @@ button a {
 .contact-1 p {
    padding: 15px 0;
   
-    color: white;
+    color: black;
 }
 .contact-1 h2 {
     font-size: 25px;
-    color: white;
+    color: black;
     padding: 15px 0;
 }
 .media h2{
     padding: 10px 10%;
-    color: white;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -471,21 +471,21 @@ button a {
        color: #00abf0;
    }
    .contact-heading {
-    color: white;
+    color: black;
     font-size: 250%;
-    margin-bottom: 50px;
-    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-top: 80px;
    }
    
    .contact-form {
     text-align: left;
     width: 40%;
     margin: 0 auto;
-    color: white;
+    color: black;
     font-weight: 1000;
    }
    ::placeholder {
-       color: white;
+       color: black;
        font-weight: 700;
    }
    
@@ -496,7 +496,7 @@ button a {
     padding: 9px;
     border-radius: 10px;
     border: 1px solid #111111;
-    background-color: white;
+    background-color: transparent;
     color: white;
    }
    
